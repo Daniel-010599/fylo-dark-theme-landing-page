@@ -1,0 +1,58 @@
+.flex-form{
+    display:flex;
+    justify-content:center;
+    background-color:#181e2a;
+    padding:30px
+}
+.form{
+    max-width:900px;
+    text-align:center;
+    background-color:#1c2230;
+    border-radius:8px;
+    box-shadow:5px 10px 10px #111723;
+    color:#fff;
+    padding:40px 80px;
+    box-sizing:border-box;
+    position:relative;
+    top:120px;
+}
+.form h3{
+    font-size:35px;
+    font-family: 'Raleway', sans-serif;
+}
+.form p{
+    padding:30px 0;
+}
+.form form{
+    display:flex;
+    gap:35px;
+}
+.form form input[type="email"]{
+    outline:none;
+    padding:18px 40px;
+    border-radius:30px;
+    border:none;
+    width:100%;
+    box-sizing:border-box;
+}
+.form form input[type="submit"]{
+    border:none;
+    cursor:pointer;
+    padding:18px 30px;
+    border-radius:30px;
+    background:linear-gradient(to right, hsl(176, 68%, 64%),hsl(198, 60%, 50%));
+    color:#fff;
+    font-size:14px;
+    font-weight:bold;
+    font-family: 'Raleway', sans-serif;
+}
+.form form input[type="submit"]:hover{
+    background:hsl(176, 68%, 64%);
+}
+.form .span-email{
+    color:hsl(0, 100%, 63%);
+    text-align:left;
+    font-size:13px;
+    margin-left:40px;
+    padding:10px 0 0 0;
+}

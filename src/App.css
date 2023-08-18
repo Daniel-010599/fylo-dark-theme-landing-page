@@ -1,38 +1,89 @@
-.App {
-  text-align: center;
+body{
+  padding:0;
+  margin:0;
+  background-color:hsl(217, 28%, 15%);
+  font-family: 'Open Sans', sans-serif;
+  /*background-position:top 800px left 0;*/
+}
+*{
+  margin:0;
+  padding:0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media(max-width:1200px){
+  .footer .social-media{
+    width:100%;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media(max-width:922px){
+  .footer .flex-footer .flex-location p{
+    max-width:100%;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media(max-width:830px){
+  .flex-opinions .grid-opinions{
+    grid-template-columns:1fr;
+  }
+}
+
+@media(max-width:720px){
+  /*body{
+    background:linear-gradient(to bottom, hsl(217, 28%, 15%) 740px, hsl(218, 28%, 13%) 740px);
+  }*/
+  .header{
+    padding:50px 30px 0 30px;
+    font-size:20px;
+  }
+  .header img{
+    width:130px;
+  }
+  .header .li-team{
+    margin:0 18px;
+  }
+  .description{
+    padding:80px 50px 130px 50px;
+    /*background-position:left 0px top 450px;*/
+  }
+  .description button{
+    font-size:20px;
+    padding:22px 135px;
+    border-radius:50px;
+  }
+  .characteristics .grid{
+    grid-template-columns:1fr;
+  }
+  .description2 .description2-center{
+    grid-template-columns:1fr;
+  }
+}
+
+
+@media(max-width:620px){
+  .flex-form .form{
+    padding:40px 30px;
+  }
+  .flex-form .form form{
+    display:block;
+  }
+  .flex-form .form form input{
+    padding:30px 40px;
+    border-radius:38px;
+    font-size:18px;
+  }
+  .flex-form .form form input[type="submit"]{
+    width:100%;
+    margin-top:50px;
+  }
+  .description button{
+    padding:22px 80px;
+  }
+}
+
+@media(max-width:545px){
+  .header{
+      flex-direction:column;
+      gap:25px;
   }
 }

@@ -1,0 +1,35 @@
+.characteristics{
+    display:flex;
+    justify-content:center;
+    background-color:hsl(218, 28%, 13%);
+    padding-bottom:120px;
+}
+.grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    max-width:1000px;
+    gap:50px;
+    text-align:center;
+    color:#fff;
+}
+  .grid .characteristic{
+    padding:32px;
+}
+.grid .characteristic h4{
+    margin:22px 0 16px 0;
+    font-family: 'Raleway', sans-serif;
+    font-size:20px;
+    letter-spacing:1px;
+}
+.grid .d0 h4{
+    margin-top:32px;
+}
+.grid .d3 h4{
+    margin-top:29px;
+}
+.grid .d0{
+    padding:32px 34px;
+}
+.grid .d1{
+    padding:32px 20px;
+}

@@ -1,0 +1,43 @@
+.description{
+    display:flex;
+    justify-content:center;
+    text-align:center;
+    color:#fff;
+    padding:70px 0 180px 0;
+    background-image:url("../images/bg-curvy-desktop.svg");
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:bottom 0px left 0;
+}
+.description div{
+    max-width:720px;
+    width:100%;
+}
+.description div .ilustration1{
+    max-width:720px;
+    width:100%;
+}
+.description h2{
+    font-size:42px;
+    margin:35px 0 20px 0;
+    font-family: 'Raleway', sans-serif;
+}
+.description p{
+    padding:20px 38px;
+    font-size:22px;
+    margin-bottom:10px;
+}
+.description button{
+    cursor:pointer;
+    color:#fff;
+    background:linear-gradient(to right, hsl(176, 68%, 64%),hsl(198, 60%, 50%));
+    border:none;
+    padding:18px 112px;
+    border-radius:30px;
+    font-weight:bold;
+    font-size:16px;
+    font-family: 'Raleway', sans-serif;
+}
+.description button:hover{
+    background:hsl(176, 68%, 64%);
+}

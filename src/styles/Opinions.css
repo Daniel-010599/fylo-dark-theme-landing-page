@@ -1,0 +1,43 @@
+.flex-opinions{
+    display:flex;
+    justify-content:center;
+    background-color:hsl(218, 28%, 13%);
+    padding:0 50px;
+}
+.grid-opinions{
+    max-width:1230px;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap:45px;
+    padding:35px 0;
+    color:#fff;
+    position:relative;
+}
+.grid-opinions .icon-quotes{
+    position:absolute;
+    top:0;
+    left:-10px;
+}
+.grid-opinions .opinion{
+    background-color:hsl(219, 30%, 18%);
+    padding:28px;
+    z-index:1;
+}
+.grid-opinions .opinion .photo{
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    margin-right:10px;
+}
+.grid-opinions .opinion .flex-opinion{
+    display:flex;
+    align-items:center;
+    margin-top:20px;
+}
+.grid-opinions .opinion .p-opinion-name{
+    font-size:12px;
+    font-weight:bold;
+}
+.grid-opinions .opinion .p-opinion-position{
+    font-size:9px;
+}
